@@ -1,0 +1,335 @@
+/*
+  가장중요한 조건
+  가로스롤은 절대 생기면 안된다.
+  가로스크롤이 생기는이유는
+  - 위드가 살이있는영역 ex)1200 1000px
+  - absolute ->부모한테 무조건 overflow hidden을 줘야됨
+  모바일 확인은 최고 작은 사이즈인 320 (크롬모바일 아이폰se) 확인시 잘나오묜 끝.
+ */
+
+/* 실콘텐츠 + 100 */
+/* 1400 작은pc 사이즈,작은 모니터  */
+
+@media screen and (max-width: 1400px) {
+    /* header */
+    /* main */
+.notice_area .board_wrap h3{
+    font-size: 46px;
+}
+.notice_area .board_wrap p{
+    font-size: 13px;
+}
+.main_vis_list .txt_wrap h2{
+    font-size: 35px;
+}
+.sec02-font{
+    font-size: 12px;
+}
+.notice_area .service_wrap .list strong{
+    font-size: 30px;
+}
+.notice_area .service_wrap .list>ul>li{
+    font-size: 14px;
+}
+
+
+    
+    /* footer */
+  }
+@media screen and (max-width: 1350px){
+    body{
+        padding: 0;
+    }
+    .header_container{
+        display: none;
+    }
+    .header_response_contai{
+        display: block;
+    }
+    .main_vis .scrollDown{
+        display: none;
+    }
+    .main_vis{
+        margin-top: 50px;
+    }
+    .footer-all-container .row .col-01 h2, .footer-all-container .row .col-01 .footer-col-01-linning{
+        font-size: 40px;
+    }
+   
+
+}
+  @media screen and (max-width: 1150px) {
+    
+      
+    .main_vis .text_wrap .Voyages{
+        font-size: 35px;
+    }
+
+    .revealing04{
+        font-size: 12px;
+    }
+    .main_vis_list .txt_wrap p{
+        margin-bottom: 0;
+    }
+   .main_vis_list{
+       display: none;
+   }
+    .work_slider .txt_area .top strong{
+        font-size: 2rem;
+    }
+    .revealing07{
+        font-size: 32px;
+    }
+    .notice_area .board_wrap{
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .notice_area .board_wrap{
+            padding: 100px 20px
+    }
+    .notice_area .board_wrap .txt_wrap{
+        width: 100%;
+    }
+    .board-title{
+        position: initial;
+        max-width: initial;
+    margin: 20px 0 20px;
+    }
+    .notice_area .board_wrap p{
+            margin: 50px 0 40px;
+                max-width: initial;
+    }
+    .project2.fade-in2{
+            position: absolute;
+    bottom: 0;
+    left: 20px;
+    }
+    .section03 .work_wrap{
+        padding: 19%;
+    }
+    .notice_area .board_wrap .img_wrap{
+        display: none;
+    }
+    .notice_area .service_wrap{
+            padding: 100px 20px;
+    }
+    .info_area .txt_wrap{
+        padding: 10px 20px;
+    }
+    .info_area .txt_wrap h2{
+        font-size: 40px;
+    }
+    .info_area .txt_wrap p{
+        font-size: 20px;
+        width: auto;
+    }
+    .info_area .txt_wrap span{
+        font-size: 16px;
+        padding: 0;
+    display: block;
+    }
+    .info_area .txt_wrap a{
+        font-size: 14px;
+            padding: 11px;
+                margin-top: 20px;
+    display: block;
+    }
+    .footer-all-container{
+        padding: 100px 20px 0;
+    }
+    
+}
+  
+  /*
+  테블릿
+  중대적인 레이아웃 변화
+  폰트사이즈 줄여준다 아래와같은룰로
+  */
+  @media screen and (max-width: 1024px) {
+    .work_slider .bottom p{
+        font-size: 12px;
+    }
+    .section03 .work_wrap{
+        padding: 18%;
+    }
+    .work_slider .bottom{
+       align-items: flex-start;
+    }
+    .work_slider .bottom a{
+        font-size: 15px;
+    }
+    .footer-all-container .row .footer-first-flex-wrap{
+        flex-direction: column;
+    }
+    .footer-all-container .row .follow_us-auth h4{
+        margin-top: 50px;
+    }
+    .section04 h2{
+        font-size: 32px;
+    }
+    .line-container{
+        margin-bottom: 0;
+    }
+    .main_vis .text_wrap>p{
+        margin-top: 0;
+    }
+    .notice_area .service_wrap .service_list{
+        flex-direction: column;
+    }
+    .notice_area .service_wrap .list{
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    
+}
+  /*
+   모바일
+   *대대적 레이아웃 변화
+   사이드 패딩 15~20
+   대폰트 font-size: 38~28
+   중폰트 18~28
+   소폰트 12~ 16
+   웬만한 레이아웃은 1줄 아니면 2줄
+   320으로 가야함
+  */
+   @media screen and (max-width: 950px){
+.main_vis .text_wrap{
+          left: 50%;
+      }
+      .info_area ul li{
+          margin-right:25px;
+      }
+      .footer-all-container .row .col-01 h2, .footer-all-container .row .col-01 .footer-col-01-linning{
+          font-size: 38px;
+      }
+      .work_slider .txt_area .top strong{
+          font-size: 38px;
+      }
+      .main_vis{
+          position: relative;
+      }
+      .notice_area .board_wrap h3{
+          font-size: 38px;
+      }
+      .info_area .txt_wrap h2{
+          font-size: 38px;
+      }
+      .view_container .work_slider{
+          padding: 0;
+      }
+      .work_slider>span{
+          z-index: 5;
+      }
+   }
+    @media screen and (max-width: 900px){
+.main_vis .text_wrap .Voyages{
+    font-size: 28px;
+}
+.work_slider .txt_area .top strong{
+    font-size: 28px;
+}
+.notice_area .board_wrap h3{
+          font-size: 28px;
+      }
+      .info_area .txt_wrap h2{
+          font-size: 28px;
+      }
+      .footer-all-container .row .col-01 h2, .footer-all-container .row .col-01 .footer-col-01-linning{
+          font-size: 28px;
+      }
+
+    }
+  @media screen and (max-width: 768px) {
+      body{
+          
+      }
+      .main_vis .img_wrap{
+          max-width: 100%;
+          height: auto;
+      }
+      .main_vis .text_wrap{
+          text-align: center;
+    margin-top: 60px;
+    position:static; 
+    top:auto;
+    left: auto;
+    transform:initial;
+      }
+      .info_area ul li img{
+          height:33px;
+      }
+      .info_area ul li{
+          margin-right: 12px;
+      }
+      .notice_area .service_wrap .list strong{
+          font-size: 24px;
+      }
+      .work_slider .txt_area .top i, .work_slider .bottom a{
+          display: none;
+      }
+      .section04 .txt_wrap{
+           text-align: center;
+    margin-top: 60px;
+    position:static; 
+    top:auto;
+    left: auto;
+    transform:initial;
+      }
+      .section04 h2, #reveal8.revealing08{
+          color: #000;
+      }
+      .info_area ul li{
+          margin-right: 2px;
+      }
+      .copyright-flex{
+          flex-direction: column;
+      }
+      .copyright{
+         padding:0;
+    font-size: 14px;
+    
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+      }
+     
+
+
+ @media screen and (max-width: 400px){
+     .video_bg{
+         width: auto;
+         height: 100vh;
+     }
+     .main_vis .text_wrap{
+         padding: 15px 20px;
+     }
+     #reveal3.revealing03{
+         font-size: 20px;
+     }
+     .work_slider>span{
+         font-size: 15px;
+     }
+     .work_slider .txt_area .top{
+         display: block;
+     }
+     .work_slider .bottom{
+         display: block;
+     }
+     .view_container .work_slider::after{
+         width: 100%;
+         height: 100%;
+     }
+     .section04 .txt_wrap{
+         padding: 15px 20px;
+     }
+      .footer-all-container .row .follow_us-auth .social_wrap{
+          flex-direction: column;
+      }
+      .video_bg{
+          width: 100%;
+          height: auto;
+      }
+ }
+
+}

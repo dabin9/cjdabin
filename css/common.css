@@ -1,0 +1,25 @@
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.white{
+    color: #fff;
+}
+.black{
+    color: #000;
+}
+.blue{
+    color: skyblue;
+}
+button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}

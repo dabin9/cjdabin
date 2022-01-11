@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="js/custom.js">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.js"></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
+
+</head>
+
+<body>
+    <header>
+        <div class="header_container white clearfix">
+            <h1 class="logo">
+                <a href="javascript:;">
+                    <img src="images/header/cj_logo.svg" alt="로고">
+                </a>
+            </h1>
+            <nav class="header_menu">
+                <span></span>
+                <span></span>
+            </nav>
+            <div class="sub_menu white">
+                <ul class="inner">
+                    <li class="brand">
+                        <h4>
+                            <a href="javascript:;">BRAND</a>
+                        </h4>
+                        <ul>
+                            <li>
+                                <a href="javascript:;">Best Brand</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">건강</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">즐거움</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">편리</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="CSV">
+                        <h4 class="arrow">
+                            <a href="javascript:;">CSV</a>
+                        </h4>
+                        <ul>
+                            <li>
+                                <a href="javascript:;">CJ CSV</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">CJ 나눔재단</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">CJ 문화재단</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">글로벌 사회공헌</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">임직원 사회봉사</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="CJIntro">
+                        <h4>
+                            <a href="javascript:;">CJ 소개</a>
+                        </h4>
+                        <ul>
+                            <li>
+                                <a href="javascript:;">회사소개</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">연혁</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">계열사</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">글로벌 CJ</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">스포츠</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">윤리경영</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">투자정보</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="recuit">
+                        <h4 class="arrow">
+                            <a href="javascript:;">인재채용</a>
+                        </h4>
+                        <ul>
+                            <li>
+                                <a href="javascript:;">채용공고</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">직무정보</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">CJ 인터뷰</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">Q&A</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">공지사항</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">My page</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="openDate">
+                        <h4>
+                            <a href="javascript:;">투자정보</a>
+                        </h4>
+                        <ul>
+                            <li>
+                                <a href="javascript:;">공고</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">재무정보</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">주가정보</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">IR 자료실</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">지배구조</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">공고</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="business">
+                        <h4 class="arrow">
+                            <a href="javascript:;">윤리경영</a>
+                        </h4>
+                        <ul>
+                            <li>
+                                <a href="javascript:;">온라인 제보</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="support">
+                        <h4>
+                            <a href="javascript:;">고객지원</a>
+                        </h4>
+                        <ul>
+                            <li>
+                                <a href="javascript:;">개인정보처리방침</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">이용약관</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">고객센터</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">공지사항</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <a href="javascript:;" class="projectGo white">
+                <span class="projectGo-btn">Start a Project</span>
+                <svg version="1.1" class="capa_01" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                    viewBox="0 0 200.981 200.981" style="enable-background:new 0 0 200.981 200.981;"
+                    xml:space="preserve">
+                    <g>
+                        <polygon style="fill:#fff;" points="17.511,10.264 129.068,10.264 129.068,0 0.007,0 0.007,129.068 10.257,129.068 
+                				10.271,17.515 193.72,200.981 200.974,193.727 			" />
+                    </g>
+                </svg>
+                <svg version="1.1" class="capa_02" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                    viewBox="0 0 200.981 200.981" style="enable-background:new 0 0 200.981 200.981;"
+                    xml:space="preserve">
+                    <g>
+                        <polygon style="fill:#000;" points="17.511,10.264 129.068,10.264 129.068,0 0.007,0 0.007,129.068 10.257,129.068 
+                                				10.271,17.515 193.72,200.981 200.974,193.727 			" />
+                    </g>
+                </svg>
+            </a>
+        </div>
+        <div class="header_response_contai">
+            <h1 class="logo">
+                <a href="javascript:;">
+                    <img src="images/header/cj_logo.svg" alt="로고">
+                </a>
+            </h1>
+            <nav class="m_header_menu">
+                <span></span>
+                <span></span>
+            </nav>
+        </div>
+        <ul class="header_response_list">
+            <li class="gnb">
+                <div class="inner">
+                    <div class="menu">
+                        <a href="javascript:;" class="dep01">BRAND</a>
+                        <a href="javascript:;" class="close">+</a>
+                        <a href="javascript:;" class="open" style="display: none; color: red;">-</a>
+                    </div>
+                    <div class="sub">
+                        <ul>
+                            <li><a href="javascript:;">Best Brand</a></li>
+                            <li><a href="javascript:;">건강</a></li>
+                            <li><a href="javascript:;">즐거움</a></li>
+                            <li><a href="javascript:;">편리</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="gnb">
+                <div class="inner">
+                    <div class="menu">
+                        <a href="javascript:;" class="dep01">CJ소개</a>
+                        <a href="javascript:;" class="close">+</a>
+                        <a href="javascript:;" class="open" style="display: none; color: red;">-</a>
+                    </div>
+                    <div class="sub">
+                        <ul>
+                            <li><a href="javascript:;">회사소개</a></li>
+                            <li><a href="javascript:;">연혁</a></li>
+                            <li><a href="javascript:;">계열사</a></li>
+                            <li><a href="javascript:;">글로벌CJ</a></li>
+                            <li><a href="javascript:;">스포츠</a></li>
+                            <li><a href="javascript:;">윤리경영</a></li>
+                            <li><a href="javascript:;">투자정보</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="gnb">
+                <div class="inner">
+                    <div class="menu">
+                        <a href="javascript:;" class="dep01">CSV</a>
+                        <a href="javascript:;" class="close">+</a>
+                        <a href="javascript:;" class="open" style="display: none; color: red;">-</a>
+
+                    </div>
+                    <div class="sub">
+                        <ul>
+                            <li><a href="javascript:;">CJ CSV</a></li>
+                            <li><a href="javascript:;">CJ 나눔재단</a></li>
+                            <li><a href="javascript:;">CJ 문화재단</a></li>
+                            <li><a href="javascript:;">글로벌 사회공헌</a></li>
+                            <li><a href="javascript:;">임직원 사회봉사</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="gnb">
+                <div class="inner">
+                    <div class="menu">
+                        <a href="javascript:;" class="dep01">인재채용</a>
+                        <a href="javascript:;" class="close" style="display: block;">+</a>
+                        <a href="javascript:;" class="open" style="display: none; color: red;">-</a>
+                    </div>
+                    <div class="sub">
+                        <ul>
+                            <li><a href="javascript:;">채용정보</a></li>
+                            <li><a href="javascript:;">직무정보</a></li>
+                            <li><a href="javascript:;">CJ 인터뷰</a></li>
+                            <li><a href="javascript:;">Q&A</a></li>
+                            <li><a href="javascript:;">공지사항</a></li>
+                            <li><a href="javascript:;">My page</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </li>
+            <li class="gnb">
+                <div class="inner">
+                    <div class="menu">
+                        <a href="javascript:;" class="dep01">투자정보</a>
+                        <a href="javascript:;" class="close">+</a>
+                        <a href="javascript:;" class="open" style="display: none; color: red;">-</a>
+                    </div>
+                    <div class="sub">
+                        <ul>
+                            <li><a href="javascript:;">공고</a></li>
+                            <li><a href="javascript:;">재무정보</a></li>
+                            <li><a href="javascript:;">주가정보</a></li>
+                            <li><a href="javascript:;">IR 자료실</a></li>
+                            <li><a href="javascript:;">지배구조</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="gnb">
+                <div class="inner">
+                    <div class="menu">
+                        <a href="javascript:;" class="dep01">윤리경영</a>
+                        <a href="javascript:;" class="close">+</a>
+                        <a href="javascript:;" class="open" style="display: none; color: red;">-</a>
+
+                    </div>
+                    <div class="sub">
+                        <ul>
+                            <li><a href="javascript:;">온라인제보</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="gnb">
+                <div class="inner">
+                    <div class="menu">
+                        <a href="javascript:;" class="dep01">고객지원</a>
+                        <a href="javascript:;" class="close">+</a>
+                        <a href="javascript:;" class="open" style="display: none; color: red;">-</a>
+                    </div>
+                    <div class="sub">
+                        <ul>
+                            <li><a href="javascript:;">개인정보처리방침</a></li>
+                            <li><a href="javascript:;">이용약관</a></li>
+                            <li><a href="javascript:;">고객센터</a></li>
+                            <li><a href="javascript:;">공지사항</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <section class="section01 main_vis">
+            <div id="trigger9" class="spacer s01"></div>
+            <div class="vertical-fading-mainvis"></div>
+            <div class="img_wrap">
+                <video src="images/main_vis/cjIntro.mp4" playsinline muted loop autoplay class="video_bg"></video>
+            </div>
+            <div id="trigger5" class="spacer s01"></div>
+            <div class="scrollDown white clearfix" id="scrollOpacity">
+                <button class="scroll-down-btn">
+                    <p class="white">Contrinuez</p>
+                </button>
+                <div class="scrollDownLine"></div>
+            </div>
+            <div class="text_wrap">
+                <div id="trigger3" class="spacer s01"></div>
+                <h2 class="white" aria-label="Voyages à moto">
+                    <span aria-hidden="true" class="text_hidden_area">
+                        <span class="line-container">
+                            <span class="Voyages" id="reveal3">당신의 평범한 일상을 새롭게</span>
+                        </span>
+                    </span>
+                </h2>
+                <div id="trigger4" class="spacer s01"></div>
+                <p class="white" aria-label="CJ는 ONLYONE 정신으로 세계인의 문화를 만들어 갑니다 세계의 라이프스타일을 주도하는 한류의 중심에 CJ가 있습니다.">
+                    <span aria-hidden="true" class="text_hidden_area">
+                        <span class="line-container">
+                            <span id="reveal4">CJ는 ONLYONE 정신으로</span>
+                        </span>
+                        <span class="line-container">
+                            <span id="reveal4">세계인의 문화를 만들어 갑니다</span>
+                        </span>
+                        <span class="line-container">
+                            <span id="reveal4">세계의 라이프스타일을 주도하는 한류의 중심에 CJ가 있습니다.</span>
+                        </span>
+                    </span>
+                </p>
+                <div class="detail-box">
+                    <div id="trigger10" class="spacer s01"></div>
+                    <a href="javascript:;" class="main-btn-wrap wrpa01 white" id="reveal10">
+                        자세히보기
+                        <div class="circle-arrow">
+                            <svg class="circle-container" viewBox="0 0 90 90" height="80" width="80">
+                                <circle class="circler" cx="40" cy="40" r="28" stroke="#b51f1f" stroke-width="2px"
+                                    fill="transparent" />
+                            </svg>
+                            <svg class="arrow" viewBox="0 0 59.39 78.47">
+                                <path
+                                    d="M58 33.46c-.25-.57-6.24-9.79-6.32-10.09s5.79 8.14 5.76 7.8c-.27-2.35-2.27-5.8-3.37-7.13a9.74 9.74 0 00-3.14-3.8c-.42-.51-1.2-1.78-1.62-2.29-1.76-.82-2.31-3-3.56-4.51-.7-.85-3.44-3.84-4.14-4.69-.09-.77-.39-.59-.67-.93s-.59-.59-.86-.93a1.55 1.55 0 01-.29-.89s-1 .81-1.11.64 0-.61-.1-.78-1 .81-1.39.3-1.49-2.52-1.95-2.42a2.93 2.93 0 00-1.15-.59c0-.39 1-.39.07-1.28-.54-.34-1.04.13-2.16.13A2.56 2.56 0 0030.19.64L30 .44v.18h-.17l-.19.12C29.4.61 29 .35 28.36 0c.89 1.2-.8.1-1.1.4-.15.15-1.9 1.92-2.31 2.42-.9 1.11-1.26 2.38-2.21 2.63-.6.6-2.49 2.46-2.75 3.42a3.87 3.87 0 01-1.85 2.2c-1 1.38-1.18 2-1.83 1.93 0 0-1.51 1.16-1.67 1.31a5.39 5.39 0 01-2.15 1.46c-.75.75-1 2.35-1.71 3.11-.6.6-1.25.55-1.7 1-.15.15.24 1.15.09 1.3S6.86 23.84 6.71 24c-1.5 1.5-4.56 3.86-5.87 5.87.16-.16 3.16-2.67 4.3-3.39-.6.6-4.5 5-4.45 5.63s-.15.78-.56 1.25c-.66.76 1.37-.66 1.57-.16a2.55 2.55 0 01-.39 1.13c-.14.15 7.62-6.95 7.62-6.95L1 36.51c3.6-3.92.3 1 1 1.68.65.42 7.81-7.06 7.62-6.45a22.08 22.08 0 01-3.31 5.08c1.06-.13 6.34-6.56 7.05-6.94 1.34-.73-5.74 7.26-4.36 5.88s5.9-5.61 7.39-7.11c.11-.8.91-.9 1.36-1.35A6.87 6.87 0 0120 23.59c.81-.8 3.41-3.13 4.49-4.15-.13 1.69-.49 4.56-.49 5.4 0 2.14.55 4.47.55 5.9s-.28 4.25-.28 5.32c.55 1.79-.11 1-.11 2.81 0 .35-.23 3-.23 3.37a17.1 17.1 0 00-.25 4c-.55 2.86 1.48 19.92 1.48 19.92l1-14V74s.7-9.49 1.25-8.42v5.73S28 70 28.58 70.7c.41.5.89-5.84 1.41-4.75.13.26.08 5.37.46 6.56.11.35 1-1 1.19-.69s.23 1.3.37 1.63c.39.86 1.14-18 1.31-16.77.22 1.51.37 21 .38 21.39 0 .7.09.33.11 0 .19-3.47 1.52-4.85 1.06-7.46l1-3a5.73 5.73 0 00-.46-1.34S36.28 65 36.83 65c.55-6.44-1-16.4-.5-22.12 0-1.43 1.09-2.86.54-4.29s.55-2.87-.54-3.94c0-2.5.82-7.29.27-9.44 0-1 .28-3.83.44-5.63L40 23.7c.42.51 1.41 1 1.69 1.31.14.17 1.14 1.71 1.28 1.88s.86 1.31 1 1.48c1.44 1.09 4.21 5.77 5.93 7.19.32-.27-.7-3.05-1-3.49.33.27 2.09 3.22 2.36 2.85s.62-.83.92-.8c.47-.1.53 1.31 1.33.94s-3.68-6.89-3.22-7c.75.24 6.11 9.6 6.53 10.11 0 0 .11 0 .22-.06a11.07 11.07 0 00-1.23-2.94c-.16-.23 2.1 2.24 2.32 2.08a1.6 1.6 0 01.37-.25c.46-.1-.37.88.6.07.9-1.13-.63-2.41-1.1-3.61z"
+                                    fill="#fff">
+                                </path>
+                            </svg>
+                            <div class="inner"></div>
+                        </div>
+                    </a>
+                </div>
+
+
+            </div>
+        </section>
+        <section class="section02 main_vis_list">
+            <div class="wrapper">
+                <div class="inner_flex">
+                    <div class="slide_img_box">
+                        <ul class="img_wrap">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <div class="slider-nav">
+                            <button id="1" aria-label="Image_caroussel01" class="single-bullet single01">
+                                <span></span>
+                                <svg viewbox="0 0 40 40" width="40" height="40" class="single-bullet-child active">
+                                    <circle class="circle" cx="20" cy="20" r="16" stroke="#b51f1f" stroke-width="2"
+                                        fill="transparent"></circle>
+                                </svg>
+                            </button>
+                            <button id="2" aria-label="Image_caroussel02" class="single-bullet single02">
+                                <span></span>
+                                <svg viewbox="0 0 40 40" width="40" height="40" class="single-bullet-child">
+                                    <circle class="circle" cx="20" cy="20" r="16" stroke="#b51f1f" stroke-width="2"
+                                        fill="transparent"></circle>
+                                </svg>
+                            </button>
+                            <button id="3" aria-label="Image_caroussel03" class="single-bullet single03">
+                                <span></span>
+                                <svg viewbox="0 0 40 40" width="40" height="40" class="single-bullet-child">
+                                    <circle class="circle" cx="20" cy="20" r="16" stroke="#b51f1f" stroke-width="2"
+                                        fill="transparent"></circle>
+                                </svg>
+                            </button>
+                            <button id="4" aria-label="Image_caroussel04" class="single-bullet single04">
+                                <span></span>
+                                <svg viewbox="0 0 40 40" width="40" height="40" class="single-bullet-child">
+                                    <circle class="circle" cx="20" cy="20" r="16" stroke="#b51f1f" stroke-width="2"
+                                        fill="transparent"></circle>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="txt_wrap sec02-txt">
+                        <div id="trigger5" class="spacer s01"></div>
+                        <h2 class="white" aria-label="[LIVE NEW MY DAY]">
+                            <span aria-hidden="true" class="text_hidden_area">
+                                <span class="line-container">
+                                    <span id="reveal5">[LIVE NEW MY DAY]</span>
+                                </span>
+
+                            </span>
+                        </h2>
+                        <div id="trigger6" class="spacer s01"></div>
+                        <p class="white"
+                            aria-label="Des itinéraires testés et approuvés par nos soins à travers les plus belles routes de France et d’Espagne, le meilleur de la gastronomie locale, une ambiance amicale et une attention particulière à toutes vos demandes. Let’s ride! ">
+                            <span aria-hidden="true" class="text_hidden_area">
+                                <span class="line-container">
+                                    <span class="sec02-font">CJ는 우리의 문화를 더 넓은 세상, 더 많은 사람들에게 알리기 위해 앞장서고 있습니다.</span>
+                                </span>
+                                <span class="line-container">
+                                    <span id="reveal6" class="sec02-font">전 세계인이 일상에서 한국의 영화, 음식, 드라마, 음악을 마음껏 즐기며 행복을
+                                        누리는 것,</span>
+                                </span>
+                                <span class="line-container">
+                                    <span id="reveal6" class="sec02-font">인류의 삶을 보다 풍요롭게 만드는 것이 CJ가 꿈꾸는 세상입니다.</span>
+                                </span>
+                                <span class="line-container">
+                                    <span id="reveal6" class="sec02-font">전 세계인이 함께 누리는 건강하고, 즐겁고, 편리한 글로벌 라이프스타일을 만들고
+                                        있습니다.</span>
+                                </span>
+                            </span>
+                        </p>
+                        <a href="javascript:;" class="main-btn-wrap">
+                            Nos circuits
+                            <g class="brush-container">
+                                <svg height="5px" viewBox="0 0 120 14" preserveAspectRatio="none">
+                                    <path
+                                        d="M17.39 12.83c0-.55 44.06-1.9 43.91-1.92-.54-.08-53.37 0-53.91 0s-6.08-.23-7.39-.33c0-.1 5.37-.32 5.91-.61s-2.84-.63-2.84-.63l38.15-.1-39.3-1.31 1.45-.42 1.27-.22 5.45-.25-5.84-.39 2.07-.19-2.24-.55 6.09-.29-4.56-.05s1.33-.25 1.55-.35c.65-.33.08-.07.95-1 .24 0 5.23-.94 2.63-.71-.21 0 .63.17-1-.21-1.21-.27 5 .06 5.21 0s-4.61-.89-4.28-1 6.67-.82 7-.88-1-.12-.7-.19C22.9-.07 33.64.15 33.64.15l-5.72 1.59S42.85.49 43.92.47L38.71.6c.63 0 5.34-.3 6-.3s2.23-.32 2.91-.3c1.43 0 3.08 0 4 .1 1.64 0 12.74.16 12.74.16l-4.75.12s9.62.34 8 .46c-3.16.25-28.66 1.62-28.6 1.65.26.16 18.42-.33 18.83-.33 2.74 0 16.59.5 16.59.5l-4.8-1s3.58-.2 5-.2c2.19 0 13.88-.08 13.88-.08l-10.68.37.47.17 15.2-.46-2.82-.17 4.46-.38h1.67c1.09 0 2.71.4 3.81.4s3.4.18 3.94.18c.28 0-3.82.39-3.41.46s4.74-.36 5-.09a55.27 55.27 0 008 1l1.66.06-3.22.28 2.38.47h-1.88l3.12.5-1.31.26.69.21-4.8.43s5.26.27 6.09.3c-.86.21-1.68.67-2 .73 0 .24-71.5.76-71.35.88s73.84.77 73.84.77-1.22.31-1 .45 1.47.56 1.57.65-4.76-.2-4.38.06 5 .39 5.24.59-2.48.08-2.15.31a32.39 32.39 0 003.58.74c-2.33.45-2.73 0-3.83.55-.27.13-3.93.47-4.08.47-5.35.18 4.11.86 1.89 1.17-.16.16-5.71 0-6.65.07-.77 0 3.14.29 2.25.31-1.72 0-3.33.11-3.59.36a5.11 5.11 0 00-2.13-.08c-.29 0-4.36 0-4.66.1-.49.09 2.78.22 2.28.3a12.47 12.47 0 01-2.13.23c-.55 0-1.7-.21-2.25-.21a7.36 7.36 0 00-1.39.21h-1.92c-.4 0-1.71-.07-3.3-.17-.63 0 5.58-.16 4.91-.2h-8.37c-1.74-.1-3.35-.18-4.18-.18a28.77 28.77 0 01-5.13.15c-.56 0 4.63-.15 4.06-.18l-8.23-.31-2.47-.1 3.29.46h-6.85s-14-.21-15.48-.21c-.82 0 10-.59 10-.59s-11.09.12-11.91.09c-4.67-.15-8.75.09-14.25 0-.92 0 8.07-.42 7.16-.44-1.24 0-12.38.36-13.58.33-2.59-.03-10.1.27-12.3.15z"
+                                        fill="#b51f1f">
+                                    </path>
+                                </svg>
+                            </g>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <section class="section03 work_area">
+            <div class="scrollmagic-pin-spacer work_wrap clearfix">
+                <div class="swiper work_slide clearfix" id="pinContainer">
+                    <ul class="swiper-wrapper slideContainer view_container clearfix">
+                        <li class="swiper-slide work_slider box01">
+                            <div class="overlay"></div>
+                            <a href="javascript:;" title="Blackout - Electrisize Festival" class="blackoutGo"></a>
+                            <span>01</span>
+                            <img src="images/work/0000006924096005542603742.png" alt="퓨처로그" class="work_img">
+                            <div class="txt_area">
+                                <div class="top">
+                                    <strong>[퓨처로그]</strong>
+                                    <i></i>
+                                </div>
+                                <div class="bottom">
+                                    <p>[퓨처로그]미래로부터의 기억🎈<br>
+                                        #일상 #미래 #라이프스타일 #Kculture
+                                    </p>
+                                    <a href="javascript:;" class="workGo">zum Projekt</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide work_slider box02">
+                            <div class="overlay"></div>
+                            <a href="javascript:;" title="Blackout - Electrisize Festival" class="blackoutGo"></a>
+                            <span>02</span>
+                            <img src="images/work/0000006924096005547175173.png" alt="cjlab" class="work_img">
+                            <div class="txt_area">
+                                <div class="top">
+                                    <strong>[CJ LAB]</strong>
+                                    <i></i>
+                                </div>
+                                <div class="bottom">
+                                    <p>EP.03-2 🔥미쿡 찐감성 잠발라야 🔥 쿡킷 랜선시식회 2교시!<br>
+                                        #CJLAB #쿡킷 #랜선시식회 #랜선파티
+                                    </p>
+                                    <a href="javascript:;" class="workGo">zum Projekt</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide work_slider box03">
+                            <div class="overlay"></div>
+                            <a href="javascript:;" title="Blackout - Electrisize Festival" class="blackoutGo"></a>
+                            <span>03</span>
+                            <img src="images/work/0000006924096005552662076.png" alt="cjlab" class="work_img">
+                            <div class="txt_area">
+                                <div class="top">
+                                    <strong>[CJ LAB]</strong>
+                                    <i></i>
+                                </div>
+                                <div class="bottom">
+                                    <p>EP.04 🙊🎥 내 취향 저격하는 💘 라이브커머스 세상!..<br>
+                                        #CJLAB #라이브커머스 #인플루언서 #새벽배송
+                                    </p>
+                                    <a href="javascript:;" class="workGo">zum Projekt</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide work_slider box04">
+                            <div class="overlay"></div>
+                            <a href="javascript:;" title="Blackout - Electrisize Festival" class="blackoutGo"></a>
+                            <span>04</span>
+                            <img src="images/work/0000006924096005555205025.png" alt="멍확행" class="work_img">
+                            <div class="txt_area">
+                                <div class="top">
+                                    <strong>[멍.확.행]</strong>
+                                    <i></i>
+                                </div>
+                                <div class="bottom">
+                                    <p>EP.08 평화로운 제주의 밤 🌆...🌟제주의 별로 완벽한 마무리-😊<br>
+                                        #명확행 #제주도 #힐링 #스타빌 #글래핑 #바베큐
+                                    </p>
+                                    <a href="javascript:;" class="workGo">zum Projekt</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section04 banner">
+            <div class="img_wrap">
+                <video src="images/banner/Brand Personality.mp4" playsinline muted loop autoplay
+                    class="video_bg"></video>
+            </div>
+            <div class="txt_wrap sec03-txt">
+                <div id="trigger7" class="spacer s01"></div>
+                <h2 class="white" aria-label="” La route, c’est la vie. “ Jack Kerouac">
+                    <span aria-hidden="true">
+                        <span class="line-container">
+                            <span id="reveal7">”</span>
+                        </span>
+                        <span class="line-container">
+                            <span id="reveal7">대한민국 물류 역사를 이끌어온</span>
+                        </span>
+                        <span class="line-container">
+                            <span id="reveal7">Global Network</span>
+                        </span>
+                        <span class="line-container">
+                            <span id="reveal7">“</span>
+                        </span>
+                    </span>
+                </h2>
+                <div id="trigger8" class="spacer s01"></div>
+                <p class="white" aria-label="” La route, c’est la vie. “ Jack Kerouac">
+                    <span aria-hidden="true">
+                        <span class="line-container">
+                            <span id="reveal8">cj 대한통운</span>
+                        </span>
+                    </span>
+                </p>
+            </div>
+        </section>
+        <section class="section05 notice_area">
+            <div class="board_wrap">
+                <div class="txt_wrap">
+                    <div id="project01" class="spacer s0"></div>
+                    <div class="board-title">
+                        <h3 class="project">
+                            We make brands and causes more meaningful to the people they serve.
+                        </h3>
+                    </div>
+                    <div id="project02" class="spacer s0"></div>
+                    <p class="project1">
+                        CJ는 우리의 문화를 더 넓은 세상, 더 많은 사람들에게 알리기 위해 앞장서고 있습니다.
+                        전 세계인이 일상에서 한국의 영화, 음식, 드라마, 음악을 마음껏 즐기며 행복을 누리는 것,
+                        인류의 삶을 보다 풍요롭게 만드는 것이 CJ가 꿈꾸는 세상입니다. 이를 위해 CJ는
+                        식품 & 식품서비스, 생명공학, 물류 & 신유통, 엔터테인먼트 & 미디어 4대 사업을 중심으로
+                        전 세계인이 함께 누리는 건강하고, 즐겁고, 편리한 글로벌 라이프스타일을 만들고 있습니다.
+                    </p>
+                    <div id="project03" class="spacer s0"></div>
+
+                    <a href="javascript:;" class="notice_btn board_go project2">
+                        <span>About CJ People</span>
+                        <svg width="28" height="14" viewBox="0 0 28 14" xmlns="http://www.w3.org/2000/svg">
+                            <g id="page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <g id="arrow-wrapper" transform="translate(2 1)" stroke="#25272C" stroke-width="3">
+                                    <path id="line" d="M18.467.648l5.39 5.399-5.39 5.407"></path>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+                <div class="img_wrap">
+                    <img src="images/notice/board/img_2008.jpg" alt="게시판">
+                </div>
+            </div>
+            <div class="service_wrap">
+                <div id="project04" class="spacer s0"></div>
+                <span class="do project3">WHAT WE DO</span>
+                <div id="project05" class="spacer s0"></div>
+                <div class="service_list" id="reveal-elements">
+                    <div class="list list01">
+                        <span class="cardName">01</span>
+                        <strong>식품&서비스</strong>
+                        <ul>
+                            <li>CJ제일제당</li>
+                            <li>CJ푸드빌</li>
+                            <li>CJ프레시웨이</li>
+                        </ul>
+                    </div>
+                    <div class="list list02">
+                        <span class="cardName">02</span>
+                        <strong>생명공학</strong>
+                        <ul>
+                            <li>CJ제일제당 BIO 사업부문</li>
+                            <li>CJ Feed&Care</li>
+                        </ul>
+                    </div>
+                    <div class="list list03">
+                        <span class="cardName">03</span>
+                        <strong>물류&신유통</strong>
+                        <ul>
+                            <li>CJ대한통운</li>
+                            <li>CJ대한통운 건설부문</li>
+                            <li>CJ올리브영</li>
+                            <li>CJ올리브네트웍스</li>
+                            <li>CJ ENM 커머스부문</li>
+                        </ul>
+                    </div>
+                    <div class="list list04">
+                        <span class="cardName">04</span>
+                        <strong>미디어</strong>
+                        <ul>
+                            <li>CJ ENM 엔터테인먼트부문</li>
+                            <li>CJ CGV</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section06 info_area">
+            <div class="txt_wrap">
+                <h2>CJ to integrate</h2>
+                <p>세계 속의 생활문화기업 CJ가 고객의 건강, 즐거움, 편리를 창조합니다.</p>
+                <span>계열사 자세히 알아보기</span>
+                <a href="javascript:;" class="info_detail">
+                    Try it for free
+                </a>
+            </div>
+            <ul class="connect01">
+                <li>
+                    <img src="images/info/containerTop/cheil.png" alt="">
+                </li>
+                <li>
+                    <img src="images/info/containerTop/cjfoodville.jpg" alt="">
+                </li>
+                <li>
+                    <img src="images/info/containerTop/cheil.png" alt="">
+                </li>
+                <li>
+                    <img src="images/info/containerTop/cjfoodville.jpg" alt="">
+                </li>
+                <li>
+                    <img src="images/info/containerTop/cheil.png" alt="">
+                </li>
+                <li>
+                    <img src="images/info/containerTop/cjfoodville.jpg" alt="">
+                </li>
+                <li>
+                    <img src="images/info/containerTop/cheil.png" alt="">
+                </li>
+                <li>
+                    <img src="images/info/containerTop/cjfoodville.jpg" alt="">
+                </li>
+                <li>
+                    <img src="images/info/containerTop/cheil.png" alt="">
+                </li>
+                <li>
+                    <img src="images/info/containerTop/cjfoodville.jpg" alt="">
+                </li>
+            </ul>
+
+            <ul class="info_container_bottom connect02">
+                <li>
+                    <img src="images/info/containerTop/cheil.png" alt="">
+                </li>
+                <li>
+                    <img src="images/info/containerTop/cjfoodville.jpg" alt="">
+                </li>
+                <li>
+                    <img src="images/info/containerTop/cheil.png" alt="">
+                </li>
+                <li>
+                    <img src="images/info/containerTop/cjfoodville.jpg" alt="">
+                </li>
+                <li>
+                    <img src="images/info/containerTop/cheil.png" alt="">
+                </li>
+                <li>
+                    <img src="images/info/containerTop/cjfoodville.jpg" alt="">
+                </li>
+                <li>
+                    <img src="images/info/containerTop/cheil.png" alt="">
+                </li>
+                <li>
+                    <img src="images/info/containerTop/cjfoodville.jpg" alt="">
+                </li>
+                <li>
+                    <img src="images/info/containerTop/cheil.png" alt="">
+                </li>
+                <li>
+                    <img src="images/info/containerTop/cjfoodville.jpg" alt="">
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-all-container">
+            <div class="row">
+                <div class="col-01">
+                    <h2>Still have questions?</h2>
+                    <div class="footer-col-01-linning">Please drop us a line</div>
+                </div>
+                <div class="footer-first-flex-wrap">
+                    <div class="col-02">
+                        <a href="javascript:;" class="footer-mail">
+                            cj1234@cj.net
+                        </a>
+                        <div class="footer-legal">
+                            <a href="javascript:;" class="">
+                                Privacy Policy
+                            </a>
+                            <a href="javascript:;">
+                                Terms of Use
+                            </a>
+                        </div>
+                        <div class="footer-lang-container">
+                            <a href="javascript:;"><span class="step on">EN</span></a>
+                            <a href="javascript:;"><span class="step">PYC</span></a>
+                            <a href="javascript:;"><span class="step">YKP</span></a>
+                        </div>
+                    </div>
+                    <div class="col-03 follow_us-auth">
+                        <h4>Follow us</h4>
+                        <div class="social_wrap">
+                            <div class="social_left">
+                                <a href="javascript:;">Twitter</a>
+                                <a href="javascript:;">Facebook</a>
+                            </div>
+                            <div class="social_right">
+                                <a href="javascript:;">Reddit</a>
+                                <a href="javascript:;">Telegram</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-04 follow_us-auth">
+                        <h4>Auth</h4>
+                        <div class="login_wrap">
+                            <a href="javascript:;">Login</a>
+                            <a href="javascript:;">Sign up</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright-flex">
+                    <div class="col-05">
+                        <div class="copyright">
+                            seoul 651 N d St. ⓒ 2022 Group&Work, lnc.
+                        </div>
+                    </div>
+                    <div class="col-06">
+                        <div class="copyright">
+                            Development:
+                        </div>
+                        <a href="javascript:;" class="upvision"><span>dabin.agency</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
